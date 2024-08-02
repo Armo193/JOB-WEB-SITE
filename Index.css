@@ -1,0 +1,32 @@
+
+bodybody {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%);
+  background-position: center;
+  background-size: cover;
+  background-image: url("Images/ad1.webp");
+}
+.h1{
+  margin-top: 50px;
+  color:blue;
+  text-align:underline;
+  text-decoration: wavy;
+  text-align: center;
+}
+
+
+.list ul{
+  display:flex;
+  padding:20px 100px;
+  background: rgb(82, 42, 42);
+  justify-content:space-between;
+  align-items: center;
+}
+.list ul li a{
+  color:beige;
+  text-transform: none;
+  text-decoration:double;
+}
+

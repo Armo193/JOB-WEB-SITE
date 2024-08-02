@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  }
+  
+  header{
+  height: 45px;
+  padding: 10px 0;
+  
+  }
+  header nav ul{
+  display: flex;
+  margin-left: 80%;
+  padding: 30;
+  margin: 0;
+  text-align: center;
+  }
+  
+  header nav ul li{
+  padding-left:5%;
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+
+  }
+  header nav ul li a {
+    font-weight: bold; /* Make the text bold */
+    text-decoration: none; /* Remove underline */
+}
+
+  
+  section{
+  height: 100vh;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .Container{
+  margin-top: 10%
+  }
+  
+  .Container img{
+  height: 300px;
+  }
+  
+  .Container h2{
+  margin-top: 3%;
+  }
+  #contact {
+    background-color: #f9f9f9; /* Set background color */
+    padding: 50px; /* Add padding for spacing */
+    text-align: center; /* Center align text */
+}
+
+#contact h1 {
+    font-size: 32px; /* Adjust heading font size */
+    margin-bottom: 20px; /* Add spacing below heading */
+}
+
+#contact p {
+    font-size: 18px; /* Adjust paragraph font size */
+    margin-bottom: 20px; /* Add spacing below paragraph */
+}
+
+#contact ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+#contact ul li {
+    font-size: 16px; /* Adjust list item font size */
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+/* Style links within the contact section */
+#contact ul li a {
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+#contact ul li a:hover {
+    color: #555; /* Change color on hover */
+}
+#contact ul li img {
+  vertical-align: middle; /* Align images vertically */
+  margin-right: 10px; /* Add right margin for spacing */
+}
+
+#contact ul li span {
+  display: inline-block; /* Ensure span elements behave like blocks */
+  vertical-align: middle; /* Align text vertically */
+}
+#contact ul li span {
+  display: inline-block; /* Ensure span elements behave like blocks */
+  vertical-align: middle; /* Align text vertically */
+  padding-left: 10px; /* Add left padding for spacing */
+}
+  
+  footer {
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  }
+  #intro {
+    background-image: url(pinkbg.jpg);
+    background-repeat: round;
+    }
+    #about{
+    background-color: bisque;
+    }
+    #contact{
+    background-color: blanchedalmond;
+    }
